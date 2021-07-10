@@ -8,6 +8,6 @@ public class MyController {
 
 	@GetMapping("sayHello")
 	public String sayHelloDocker() {
-		return "Hello Murali! From Docker Container.";
+		return "Hello Murali! From Docker Container";
 	}
 }
